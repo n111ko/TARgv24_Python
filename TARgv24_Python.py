@@ -89,9 +89,9 @@ e = int(input("Sisesta viies number: "))
 arit_kesk = (a + b + c + d + e) / 5
 print(f"Aritmeetilise keskmine on {round(arit_kesk, 2)}")
 
-x = range(6)
-for n in x:
-  print(n)
+# x = range(6)
+# for n in x:
+#   print(n)
 
 ######################
 
