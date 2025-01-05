@@ -111,14 +111,28 @@ except:
 
 ##### Ülesanne 6 #####
 
-pikkus = float(input("Sisestage inimese pikkus (sm): "))
+try:
+    pikkus = float(input("Sisestage inimese pikkus (sm): "))
 
-if pikkus <= 150:
-    print("See inimene on lühike.")
-elif 151 <= pikkus <= 170:
-    print("See inimene on keskmine.")
-elif 171 <= pikkus:
-    print("See inimene on pikk.")
+    if pikkus <= 150:
+        print("See inimene on lühikest kasvu.")
+    elif 151 <= pikkus <= 170:
+        print("See inimene on keskmist kasvu.")
+    elif 171 <= pikkus:
+        print("See inimene on pikka kasvu.")
+
+except:
+    print("Viga")
 
 ######################
 
+
+
+##### Ülesanne 7 #####
+
+sugu = input("Kas te olete naine või mees? (N/M): ")
+
+if sugu.upper() == "NAINE" or sugu.upper() == "N":
+    pikkus = float(input("Sisestage inimese pikkus (sm): "))
+
+######################
