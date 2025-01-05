@@ -28,7 +28,8 @@ else:
 
 ##### Ülesanne 2 #####
 
-
+nimi1 = input("Kirjuta oma nimi: ")
+nimi2 = input("Kirjuta oma nimi: ")
 
 
 
