@@ -129,4 +129,4 @@ hind_uhele = taishind / p
 
 print("Tšekk", "\n","-----------", "\n", f"Pitsa hind: {pitsa_hind}€", "\n",f"Jootraha: {round(jootraha, 2)}€", "\n", f"Inimeste arv: {p}", "\n", f"Hind ühele: {round(hind_uhele, 2)}€", "\n", "-----------")
 
-######################
+###################### 

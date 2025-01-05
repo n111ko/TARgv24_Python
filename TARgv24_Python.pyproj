@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund3(if).py</StartupFile>
+    <StartupFile>01_math_random_print_input.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Tund1%28math_random_print_input%29.py" />
+    <Compile Include="01_math_random_print_input.py" />
     <Compile Include="Tund2%28datetime_try_except%29.py" />
     <Compile Include="Tund3%28if%29.py" />
   </ItemGroup>
