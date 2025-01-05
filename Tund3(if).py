@@ -1,7 +1,5 @@
 ##### Ülesanne 1 #####
 
-# from curses.ascii import isalpha
-
 nimi = input("Mis on sinu nimi? ")
 
 if nimi.isalpha() and nimi.isupper():
