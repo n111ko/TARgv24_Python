@@ -64,6 +64,7 @@ try:
 
     else:
         print("Viga")
+
 except:
     print("On vaja numbreid sisestada!")
 
@@ -88,3 +89,36 @@ except:
     print("Viga")
 
 ######################
+
+
+
+##### Ülesanne 5 #####
+
+try:
+    temperatuur = float(input("Sisestage temperatuur: "))
+
+    if temperatuur >= 18:
+        print("See on sobiv toasoojus.")
+    else:
+        print("Temperatuur on alla 18 kraadi.")
+
+except:
+    print("Viga")
+
+######################
+
+
+
+##### Ülesanne 6 #####
+
+pikkus = float(input("Sisestage inimese pikkus (sm): "))
+
+if pikkus <= 150:
+    print("See inimene on lühike.")
+elif 151 <= pikkus <= 170:
+    print("See inimene on keskmine.")
+elif 171 <= pikkus:
+    print("See inimene on pikk.")
+
+######################
+
