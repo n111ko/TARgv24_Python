@@ -160,6 +160,8 @@ except:
 
 ######################
 
+
+
 ##### Ülesanne 8 #####
 
 kusimus1 = input("Kas te soovite piima osta? (jah/ei): ")
