@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tund1(math_random_print_input).py</StartupFile>
+    <StartupFile>Tund2(datetime_try_except).py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Tund1%28math_random_print_input%29.py" />
+    <Compile Include="Tund2%28datetime_try_except%29.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
