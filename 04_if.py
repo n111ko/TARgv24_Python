@@ -1,3 +1,5 @@
+from random import *
+
 ##### Ülesanne 1 #####
 
 nimi = input("Mis on sinu nimi? ")
@@ -159,3 +161,33 @@ except:
 ######################
 
 ##### Ülesanne 8 #####
+
+kusimus1 = input("Kas te soovite piima osta? (jah/ei): ")
+
+if kusimus1.upper() == "JAH" or kusimus1.upper() == "J":
+    piima_hind = randint(1, 5)
+elif kusimus1.upper() == "EI" or kusimus1.upper() == "E":
+    piima_hind = 0
+
+kusimus2 = input("Kas te soovite mahla osta? (jah/ei): ")
+
+if kusimus2.upper() == "JAH" or kusimus2.upper() == "J":
+    mahla_hind = randint(1, 5)
+elif kusimus2.upper() == "EI" or kusimus2.upper() == "E":
+    mahla_hind = 0
+
+kusimus3 = input("Kas te soovite šokolaadi osta? (jah/ei): ")
+
+if kusimus3.upper() == "JAH" or kusimus3.upper() == "J":
+    sokolaadi_hind = randint(1, 5)
+elif kusimus3.upper() == "EI" or kusimus3.upper() == "E":
+    sokolaadi_hind = 0
+
+hind = piima_hind + mahla_hind + sokolaadi_hind
+
+print()
+print(f"Piim - {piima_hind}€\nMahl - {mahla_hind}€\nŠokolaad - {sokolaadi_hind}€")
+print()
+print(f"Hind on {hind}€.")
+
+######################
