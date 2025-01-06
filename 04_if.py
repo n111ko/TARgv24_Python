@@ -1,4 +1,7 @@
 from random import *
+from datetime import *
+from calendar import *
+from time import strptime
 
 ##### Ülesanne 1 #####
 
@@ -198,6 +201,58 @@ print(f"Hind on {hind}€.")
 
 ##### Ülesanne 9 #####
 
+try:
+    a = float(input("Sisestage esimese külje pikkus: "))
+    b = float(input("Sisestage teise külje pikkus: "))
 
+    if a == b:
+        print("See on ruut.")
+    else:
+        print("See pole ruut.")
+
+except:
+    print("On vaja numbreid sisestada!")
+
+######################
+
+
+
+##### Ülesanne 10 #####
+
+a = float(input("Sisestage esimene arv: "))
+b = float(input("Sisestage teine arv: "))
+
+print()
+
+kusimus = input("Mida te soovite teha? (+ | - | * | /): ")
+
+if kusimus == "+":
+    c = a + b
+elif kusimus == "-":
+    c = a - b
+elif kusimus == "*":
+    c = a * b
+elif kusimus == "/":
+    c = a / b
+else:
+    print("Viga")
+
+######################
+
+
+
+##### Ülesanne 11 #####
+
+sunnipaev = input("Sisestage oma sünnipäeva (DD-MM-YYYY): ")
+
+sunnipaevv = datetime.strptime(sunnipaev, "%d-%m-%Y")
+tana = datetime.today()
+vanus = tana.year - sunnipaevv.year
+
+if vanus > 0 and vanus % 10 == 0:
+    print("Teil on juubel!")
+else:
+    print()
+    print("Juubel mitte sellel aastal.")
 
 ######################
