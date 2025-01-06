@@ -10,20 +10,27 @@ nimi = input("Mis on sinu nimi? ")
 if nimi.isalpha() and nimi.isupper():
     if nimi == "JUKU":
         print("Lähme kinno")
+
         try:
             vanus = int(input(f"{nimi}, kui vana sa oled? "))
             if vanus < 0 or vanus > 100:
                 print("Viga!")
+
             elif 6 <= vanus <= 14:
                 print("Lastepilet")
+
             elif 15 <= vanus <= 65:
                 print ("Täispilet")
+
             elif vanus > 65:
                 print("Sooduspilet")
+
             else:
                 print("Nii palju!!")
+
         except:
             print("Täisarv on vaja sisestada.")
+
 else:
     print("Segatud sõne")
 
@@ -40,6 +47,7 @@ nimed = ["Anton", "Viktor"]
 if nimi1.isalpha() and nimi2.isalpha():
     if (nimi1 in nimed) and (nimi2 in nimed):
         print("Nad on pinginaabrid.")
+
     else:
         print("Nad ei ole pinginaabrid.")
 else:
@@ -104,6 +112,7 @@ try:
 
     if temperatuur >= 18:
         print("See on sobiv toasoojus.")
+
     else:
         print("Temperatuur on alla 18 kraadi.")
 
@@ -121,8 +130,10 @@ try:
 
     if pikkus <= 150:
         print("See inimene on lühikest kasvu.")
+
     elif 151 <= pikkus <= 170:
         print("See inimene on keskmist kasvu.")
+
     elif 171 <= pikkus:
         print("See inimene on pikka kasvu.")
 
@@ -143,8 +154,10 @@ try:
 
         if pikkus <= 150:
             print("Te olete lühikest kasvu.")
+
         elif pikkus <= 170:
             print("Te olete keskmist kasvu.")
+
         elif 171 <= pikkus:
             print("Te olete pikka kasvu.")
 
@@ -153,8 +166,10 @@ try:
 
         if pikkus <= 160:
             print("Te olete lühikest kasvu.")
+
         elif pikkus <= 180:
             print("Te olete keskmist kasvu.")
+
         elif 181 <= pikkus:
             print("Te olete pikka kasvu.")
 
@@ -171,6 +186,7 @@ kusimus1 = input("Kas te soovite piima osta? (jah/ei): ")
 
 if kusimus1.upper() == "JAH" or kusimus1.upper() == "J":
     piima_hind = randint(1, 5)
+
 elif kusimus1.upper() == "EI" or kusimus1.upper() == "E":
     piima_hind = 0
 
@@ -178,6 +194,7 @@ kusimus2 = input("Kas te soovite mahla osta? (jah/ei): ")
 
 if kusimus2.upper() == "JAH" or kusimus2.upper() == "J":
     mahla_hind = randint(1, 5)
+
 elif kusimus2.upper() == "EI" or kusimus2.upper() == "E":
     mahla_hind = 0
 
@@ -185,6 +202,7 @@ kusimus3 = input("Kas te soovite šokolaadi osta? (jah/ei): ")
 
 if kusimus3.upper() == "JAH" or kusimus3.upper() == "J":
     sokolaadi_hind = randint(1, 5)
+
 elif kusimus3.upper() == "EI" or kusimus3.upper() == "E":
     sokolaadi_hind = 0
 
@@ -207,6 +225,7 @@ try:
 
     if a == b:
         print("See on ruut.")
+
     else:
         print("See pole ruut.")
 
@@ -228,16 +247,20 @@ kusimus = input("Mida te soovite teha? (+ | - | * | /): ")
 
 if kusimus == "+":
     c = a + b
+
 elif kusimus == "-":
     c = a - b
+
 elif kusimus == "*":
     c = a * b
+
 elif kusimus == "/":
     c = a / b
+
 else:
     print("Viga")
 
-######################
+#######################
 
 
 
@@ -251,8 +274,29 @@ vanus = tana.year - sunnipaevv.year
 
 if vanus > 0 and vanus % 10 == 0:
     print("Teil on juubel!")
+
 else:
     print()
     print("Juubel mitte sellel aastal.")
 
-######################
+#######################
+
+
+
+##### Ülesanne 12 #####
+
+hind = float(input("Sisestage hind: "))
+
+if hind <= 10:
+    hind = hind - (hind * 0.1)
+    print(f"Teil on 10% allahindlus! Nüüd hind on {hind}.")
+
+elif hind > 10:
+    hind = hind - (hind * 0.2)
+    print(f"Teil on 20% allahindlus! Nüüd hind on {hind}.")
+
+else:
+    print("Viga")
+
+
+#######################
