@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>04_if.py</StartupFile>
+    <StartupFile>05_iseseisevtoo_valiklaused_ruutvorrand.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,7 @@
     <Compile Include="02_datetime_try_except.py" />
     <Compile Include="04_if.py" />
     <Compile Include="03_vigade_otsing_1.py" />
+    <Compile Include="05_iseseisevtoo_valiklaused_ruutvorrand.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
