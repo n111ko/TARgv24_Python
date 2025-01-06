@@ -298,5 +298,27 @@ elif hind > 10:
 else:
     print("Viga")
 
+#######################
+
+
+
+##### Ülesanne 12 #####
+
+sugu = input("Kas te olete naine või mees? (N/M): ")
+
+if sugu.upper() == "NAINE" or sugu.upper() == "N":
+    print("Te ei sobi selle meeskonna jaoks.")
+
+elif sugu.upper() == "MEES" or sugu.upper() == "M":
+    vanus = input("Sisestage oma vanus: ")
+
+    if 16 <= vanus <= 18:
+        print("Te sobite selle meeskonna jaoks.")
+
+    else:
+        print("Te ei sobi selle meeskonna jaoks.")
+
+else:
+    print("Viga")
 
 #######################
