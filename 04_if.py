@@ -302,7 +302,7 @@ else:
 
 
 
-##### Ülesanne 12 #####
+##### Ülesanne 13 #####
 
 sugu = input("Kas te olete naine või mees? (N/M): ")
 
@@ -317,6 +317,26 @@ elif sugu.upper() == "MEES" or sugu.upper() == "M":
 
     else:
         print("Te ei sobi selle meeskonna jaoks.")
+
+else:
+    print("Viga")
+
+#######################
+
+
+
+##### Ülesanne 14 #####
+
+inimene = int(input("Kui palju inimesi tuleb? "))
+buss = int(input("Mitu istekohta on bussis? "))
+
+if inimene % buss == 0:
+    print(f"On vaja {int(inimene/buss)} bussi.")
+    print(f"Viimases bussis on {buss} inimest.")
+
+elif inimene % buss != 0:
+    print(f"On vaja {int(inimene/buss) + 1} bussi.")
+    print(f"Viimases bussis on {inimene - (int(inimene/buss)) * buss} inimest.")
 
 else:
     print("Viga")
