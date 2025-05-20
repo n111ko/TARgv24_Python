@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>07_vigade_otsing_2.py</StartupFile>
+    <StartupFile>08_praktiline_too_matemaatika.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,7 @@
     <Compile Include="05_iseseisevtoo_valiklaused_ruutvorrand.py" />
     <Compile Include="06_kordused.py" />
     <Compile Include="07_vigade_otsing_2.py" />
+    <Compile Include="08_praktiline_too_matemaatika.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
