@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>08_praktiline_too_matemaatika.py</StartupFile>
+    <StartupFile>4. Järjend (List)\4. Jarjend.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,14 +21,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="01_math_random_print_input.py" />
-    <Compile Include="02_datetime_try_except.py" />
-    <Compile Include="04_if.py" />
-    <Compile Include="03_vigade_otsing_1.py" />
-    <Compile Include="05_iseseisevtoo_valiklaused_ruutvorrand.py" />
-    <Compile Include="06_kordused.py" />
-    <Compile Include="07_vigade_otsing_2.py" />
-    <Compile Include="08_praktiline_too_matemaatika.py" />
+    <Compile Include="1. Lineaarsed programmid\01_math_random_print_input.py" />
+    <Compile Include="1. Lineaarsed programmid\02_datetime_try_except.py" />
+    <Compile Include="2. Tingimuslik operaator IF\04_if.py" />
+    <Compile Include="1. Lineaarsed programmid\03_vigade_otsing_1.py" />
+    <Compile Include="2. Tingimuslik operaator IF\05_iseseisevtoo_valiklaused_ruutvorrand.py" />
+    <Compile Include="3. Kordused\06_kordused.py" />
+    <Compile Include="3. Kordused\07_vigade_otsing_2.py" />
+    <Compile Include="3. Kordused\08_praktiline_too_matemaatika.py" />
+    <Compile Include="4. Järjend %28List%29\4. Jarjend.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1. Lineaarsed programmid\" />
+    <Folder Include="2. Tingimuslik operaator IF\" />
+    <Folder Include="3. Kordused\" />
+    <Folder Include="4. Järjend %28List%29\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
