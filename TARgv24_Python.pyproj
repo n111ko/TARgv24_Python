@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Kasutajate funktsioonid\5. Def.py</StartupFile>
+    <StartupFile>Kasutajate funktsioonid\5.1. Isikukood.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,7 +34,9 @@
     <Compile Include="4. Järjend %28List%29\4.2. Listid.py" />
     <Compile Include="4. Järjend %28List%29\4.3. Isikukood.py" />
     <Compile Include="Kasutajate funktsioonid\5. Def.py" />
+    <Compile Include="Kasutajate funktsioonid\5.1. Isikukood.py" />
     <Compile Include="Kasutajate funktsioonid\def_module.py" />
+    <Compile Include="Kasutajate funktsioonid\isikukood_module.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1. Lineaarsed programmid\" />
