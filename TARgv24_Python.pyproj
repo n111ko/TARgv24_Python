@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>6. Töö failidega\6. Töö failidega.py</StartupFile>
+    <StartupFile>7. Sõnastikud\7. Euroopa riigid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -40,6 +40,8 @@
     <Compile Include="5. Kasutajate funktsioonid\isikukood_module.py" />
     <Compile Include="5. Kasutajate funktsioonid\regAut_module.py" />
     <Compile Include="6. Töö failidega\6. Töö failidega.py" />
+    <Compile Include="7. Sõnastikud\7. Euroopa riigid.py" />
+    <Compile Include="7. Sõnastikud\euroopa_riigid_module.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1. Lineaarsed programmid\" />
@@ -48,6 +50,10 @@
     <Folder Include="4. Järjend %28List%29\" />
     <Folder Include="5. Kasutajate funktsioonid\" />
     <Folder Include="6. Töö failidega\" />
+    <Folder Include="7. Sõnastikud\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="7. Sõnastikud\riigid_pealinnad.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
