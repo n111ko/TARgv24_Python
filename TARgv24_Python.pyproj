@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>4. Järjend (List)\4. Jarjend.py</StartupFile>
+    <StartupFile>4. Järjend (List)\4.1. Sõne ja järjesti funktsioonid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,6 +30,7 @@
     <Compile Include="3. Kordused\07_vigade_otsing_2.py" />
     <Compile Include="3. Kordused\08_praktiline_too_matemaatika.py" />
     <Compile Include="4. Järjend %28List%29\4. Jarjend.py" />
+    <Compile Include="4. Järjend %28List%29\4.1. Sõne ja järjesti funktsioonid.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1. Lineaarsed programmid\" />
