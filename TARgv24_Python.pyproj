@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2241d50b-7176-47e0-b00e-f894c9cd1c3d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>7. Sõnastikud\7. Euroopa riigid.py</StartupFile>
+    <StartupFile>8. Graafiline liides. Tkinter ja Matplotlib\8.2. Ruutvõrrandi lahendamine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -42,6 +42,10 @@
     <Compile Include="6. Töö failidega\6. Töö failidega.py" />
     <Compile Include="7. Sõnastikud\7. Euroopa riigid.py" />
     <Compile Include="7. Sõnastikud\euroopa_riigid_module.py" />
+    <Compile Include="8. Graafiline liides. Tkinter ja Matplotlib\8. tkinter.py" />
+    <Compile Include="8. Graafiline liides. Tkinter ja Matplotlib\8.2. Ruutvõrrandi lahendamine.py" />
+    <Compile Include="8. Graafiline liides. Tkinter ja Matplotlib\ruut_lah_def.py" />
+    <Compile Include="8. Graafiline liides. Tkinter ja Matplotlib\tkinter_def.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1. Lineaarsed programmid\" />
@@ -51,6 +55,7 @@
     <Folder Include="5. Kasutajate funktsioonid\" />
     <Folder Include="6. Töö failidega\" />
     <Folder Include="7. Sõnastikud\" />
+    <Folder Include="8. Graafiline liides. Tkinter ja Matplotlib\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="7. Sõnastikud\riigid_pealinnad.txt" />
